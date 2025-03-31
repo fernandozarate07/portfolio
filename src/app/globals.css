@@ -1,0 +1,24 @@
+:root {
+  /* colors */
+  --white: #ffffff;
+  --black: #171717;
+  --black-op: rgba(23, 23, 23, 0.5);
+  /* spaces */
+  --space-max: 48px;
+  --space-mid: 32px;
+  --space-min: 16px;
+}
+body {
+  color: var(--black-op);
+  background: var(--white);
+}
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
