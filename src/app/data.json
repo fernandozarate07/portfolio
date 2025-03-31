@@ -1,0 +1,14 @@
+[
+  {
+    "id": 1,
+    "title": "Unimarket",
+    "description": "App diseñada para comprar, vender y compartir material académico universitario.",
+    "tech": ["React", "Next", "Node", "Express", "MySQL"]
+  },
+  {
+    "id": 2,
+    "title": "Protoprogramadores",
+    "description": "Agencia especializada en branding, diseño y desarrollo web.",
+    "tech": ["React", "Next"]
+  }
+]

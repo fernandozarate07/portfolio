@@ -1,0 +1,41 @@
+:root {
+  --width-video: ;
+}
+.card {
+  width: 50%;
+
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-mid);
+}
+.card__video_container {
+  width: 100%;
+  height: 200px;
+  border: 0.5px solid var(--black-op);
+  border-radius: 8px;
+}
+.card__body_title {
+  color: var(--black);
+}
+.card__body_container {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-min);
+}
+.card__body_description {
+  padding-block: var(--space-min);
+
+  display: flex;
+
+  font-size: var(--size-min);
+  border-bottom: 0.5px solid var(--black-op);
+}
+.card__tech_contaienr {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--space-mid);
+}
+.card__techo_item {
+  font-size: 12px;
+}

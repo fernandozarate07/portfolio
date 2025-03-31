@@ -3,7 +3,7 @@ import "./globals.css";
 
 const WorkSans = Work_Sans({
   subsets: ["latin"],
-  weights: ["400", "600"],
+  weights: ["300", "500"],
 });
 export const metadata = {
   title: "Portfolio de Fernando Zárate ",

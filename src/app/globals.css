@@ -2,7 +2,7 @@
   /* colors */
   --white: #ffffff;
   --black: #171717;
-  --black-op: rgba(23, 23, 23, 0.5);
+  --black-op: rgba(23, 23, 23, 0.7);
   /* spaces */
   --space-max: 48px;
   --space-mid: 24px;
@@ -12,8 +12,8 @@
   --size-mid: 20px;
   --size-min: 16px;
   /* font-weight: */
-  --weight-normal: 400;
-  --weight-bold: 600;
+  --weight-normal: 300;
+  --weight-bold: 500;
 }
 body {
   color: var(--black-op);

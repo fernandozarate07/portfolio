@@ -1,0 +1,22 @@
+.button_container {
+  width: 100%;
+  padding-top: 10px;
+  border-top: 0.5px solid var(--black-op);
+}
+.button {
+  width: fit-content;
+  padding: 8px 16px;
+
+  display: flex;
+  border-radius: 8px;
+  border: none;
+  background-color: var(--black-op);
+  color: var(--white);
+
+  cursor: pointer;
+  transition: ease 0.3s;
+}
+.button:hover {
+  color: var(--white);
+  background-color: var(--black);
+}
