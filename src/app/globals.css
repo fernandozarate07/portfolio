@@ -5,17 +5,35 @@
   --black-op: rgba(23, 23, 23, 0.5);
   /* spaces */
   --space-max: 48px;
-  --space-mid: 32px;
-  --space-min: 16px;
+  --space-mid: 24px;
+  --space-min: 8px;
+  /* font */
+  --size-max: 24px;
+  --size-mid: 20px;
+  --size-min: 16px;
+  /* font-weight: */
+  --weight-normal: 400;
+  --weight-bold: 600;
 }
 body {
   color: var(--black-op);
   background: var(--white);
+  font-size: var(--size-mid);
+  letter-spacing: -1;
 }
 * {
   box-sizing: border-box;
   padding: 0;
   margin: 0;
+}
+h1,
+h2,
+h3 {
+  margin: 0;
+  padding: 0;
+  font-size: inherit;
+  font-weight: inherit;
+  line-height: inherit;
 }
 
 a {
