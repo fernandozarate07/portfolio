@@ -38,7 +38,7 @@
   font-size: var(--size-xmin);
 }
 /* media queris */
-@media (max-width: 600px) {
+@media (max-width: 640px) {
   .card {
     width: 100%;
   }

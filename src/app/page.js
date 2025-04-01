@@ -5,7 +5,8 @@ import data_studies from "./data_studies.json";
 
 import Card from "../components/project_card/project_card";
 import Box from "../components/box/box";
-import Button from "@/components/button/button";
+import Button from "@/components/buttons/button";
+import Button_resumen from "@/components/buttons/button_resume";
 
 export default function Home() {
   const projects = data_projects;
@@ -61,14 +62,20 @@ export default function Home() {
               </a>
             </p>
             <div className={styles.contact__btns_container}>
-              <Button content={"Github"} />
-              <Button content={"Instagram"} />
-              <Button content={"Linkedin"} />
+              <a href="https://github.com/fernandozarate07" target="_blank" rel="noopener noreferrer">
+                <Button content={"Github"} />
+              </a>
+              <a href="https://www.instagram.com/zarate.fernando.delvalle" target="_blank" rel="noopener noreferrer">
+                <Button content={"Instagram"} />
+              </a>
+              <a href="https://www.linkedin.com/in/fernandozaratedev" target="_blank" rel="noopener noreferrer">
+                <Button content={"Linkedin"} />
+              </a>
             </div>
           </div>
           <div className={styles.contact__resume_container}>
             <p className={styles.contact__resume_p}>¿Quieres más información?</p>
-            <Button content={"Currículum Vitae"} />
+            <Button_resumen content={"Currículum Vitae"} />
           </div>
         </div>
       </main>

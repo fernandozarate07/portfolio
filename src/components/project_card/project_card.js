@@ -1,5 +1,5 @@
 import styles from "./project_card.module.css";
-import Button from "../button/button";
+import Button from "../buttons/button";
 
 export default function Card({ project }) {
   return (
@@ -17,7 +17,9 @@ export default function Card({ project }) {
             </span>
           ))}
         </div>
-        <Button content={"Code"} />
+        <a href={project.link} target="_blank" rel="noopener noreferrer">
+          <Button content={"Code"} />
+        </a>
       </div>
     </div>
   );
