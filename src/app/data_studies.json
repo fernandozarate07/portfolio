@@ -1,0 +1,20 @@
+[
+  {
+    "id": 1,
+    "title": "Tecnicatura en Programción Web",
+    "description": "Universidad Nacional de San Juan",
+    "year": {
+      "start": "2025",
+      "end": "presente"
+    }
+  },
+  {
+    "id": 2,
+    "title": "Profesorado en educación musical",
+    "description": "Instituto Superior Santa Cecilia",
+    "year": {
+      "start": "2016",
+      "end": "2021"
+    }
+  }
+]
