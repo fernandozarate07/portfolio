@@ -20,7 +20,8 @@ export default function Home() {
           <h1 className={styles.hero__name}>Fernando Zárate</h1>
           <h2 className={styles.hero__rol}>Full Stack Designer</h2>
           <p className={styles.hero__description}>
-            Diseño con carácter, experiencias fluidas y alto rendimiento. Tu web, reflejo de tu identidad.
+            Mi objetivo es diseñar webs con carácter, donde funcionalidad y estética se fusionen para ir más allá de su
+            propósito y reflejar auténticamente la identidad de la marca.
           </p>
         </div>
         {/* project */}
@@ -45,29 +46,34 @@ export default function Home() {
             <Box content={studies[0]}></Box>
             <Box content={studies[1]}></Box>
           </div>
-          <div className={styles.studies__resume_container}>
-            <p className={styles.studies__resume_p}>Puedes descargar mi curriculum vitae desde aqui.</p>
-            <Button content={"Descargar cv"} />
-          </div>
         </div>
         {/* contact */}
         <div className={styles.contact}>
           <h2 className={styles.contact__title}>Contacto</h2>
           <div className={styles.contact__container}>
             <p className={styles.contact__p}>
-              Escríbeme a fernandozarate.dev@gmail.com, estaré encantado de escucharte.
+              Escríbeme a{" "}
+              <a
+                href="mailto:fernandozarate.dev@gmail.com?subject=Hola%20Fer!"
+                target="_blank"
+                rel="noopener noreferrer">
+                fernandozarate.dev@gmail.com
+              </a>
             </p>
             <div className={styles.contact__btns_container}>
               <Button content={"Github"} />
-              <Button content={"Gmail"} />
               <Button content={"Instagram"} />
               <Button content={"Linkedin"} />
             </div>
           </div>
+          <div className={styles.contact__resume_container}>
+            <p className={styles.contact__resume_p}>¿Quieres más información?</p>
+            <Button content={"Currículum Vitae"} />
+          </div>
         </div>
       </main>
       <footer className={styles.footer}>
-        <span>© 2025 fernando .</span>
+        <span>© 2025 fernando zárate</span>
         <span>Casi todos los derechos reservados</span>
       </footer>
     </div>

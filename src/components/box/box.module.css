@@ -4,16 +4,20 @@
   align-items: center;
   justify-content: space-between;
   padding: var(--space-mid);
-  border: 0.5px solid var(--black-op);
+  border: 0.5px solid var(--black-op-line);
   border-radius: 8px;
 
   transition: ease 0.3s;
   box-shadow: 0 0 0 2px transparent;
 }
 .box__left {
+  width: 70%;
   display: flex;
   flex-direction: column;
   gap: var(--space-min);
+}
+.box_right {
+  width: 30%;
 }
 .box__title {
   color: var(--black);
@@ -24,5 +28,14 @@
 }
 .box:hover,
 .box:focus {
-  box-shadow: 0 0 0 0.5px var(--black-op);
+  box-shadow: 0 0 0 0.5px var(--black-op-line);
+}
+@media (max-width: 600px) {
+  .box__title {
+    font-size: var(--size-min);
+  }
+  .box__year,
+  .box__description {
+    font-size: var(--size-xmin);
+  }
 }
