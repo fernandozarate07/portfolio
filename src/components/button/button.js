@@ -1,11 +1,11 @@
 import styles from "./button.module.css";
+import { HiArrowTrendingUp } from "react-icons/hi2";
 
 export default function Button({ content }) {
   return (
-    <div className={styles.button_container}>
-      <button className={styles.button}>
-        <span>{content}</span>
-      </button>
-    </div>
+    <button className={styles.button}>
+      <span>{content}</span>
+      <HiArrowTrendingUp />
+    </button>
   );
 }

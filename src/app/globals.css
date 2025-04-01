@@ -2,7 +2,7 @@
   /* colors */
   --white: #ffffff;
   --black: #171717;
-  --black-op: rgba(23, 23, 23, 0.7);
+  --black-op: rgba(23, 23, 23, 0.6);
   /* spaces */
   --space-max: 48px;
   --space-mid: 24px;
@@ -11,6 +11,7 @@
   --size-max: 24px;
   --size-mid: 20px;
   --size-min: 16px;
+  --size-xmin: 12px;
   /* font-weight: */
   --weight-normal: 300;
   --weight-bold: 500;

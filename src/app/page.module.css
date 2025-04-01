@@ -1,13 +1,17 @@
 .page {
   display: flex;
-  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  gap: 96px; /*tamaño unico*/
 }
 .main {
+  margin-inline: 20px;
   max-width: 800px;
   display: flex;
   flex-direction: column;
   gap: 96px; /*tamaño unico*/
 }
+/* hero */
 .hero {
   width: 100%;
   margin-top: 96px; /*tamaño unico*/
@@ -27,12 +31,20 @@
   margin-top: var(--space-mid);
   font-size: var(--size-min);
 }
-.project {
+/* project */
+
+.project,
+.experience,
+.studies,
+.contact {
   display: flex;
   flex-direction: column;
   gap: var(--space-mid);
 }
-.project__title {
+.project__title,
+.experience__title,
+.studies__title,
+.contact__title {
   color: var(--black);
   font-size: var(--font-max);
 }
@@ -42,11 +54,64 @@
   display: flex;
   gap: var(--space-mid);
 }
+/* experience */
 
-/* .footer {
-} */
-/* Enable hover only on non-touch devices */
-/* @media (hover: hover) and (pointer: fine) {
+.studies__box_container,
+.experience_box_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: var(--space-mid);
 }
+.studies__resume_container {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-min);
+}
+.studies__resume_p {
+  font-size: var(--size-min);
+}
+/* contact */
+.contact__container {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-min);
+}
+.contact__p {
+  font-size: var(--size-min);
+}
+.contact__btns_container {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--space-mid);
+}
+/* footer */
+.footer {
+  max-width: 800px;
+  width: 100%;
+  height: 60px;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  border-top: 0.5px solid var(--black-op);
+}
+.footer span {
+  font-size: var(--size-xmin);
+}
+/* media queris */
 @media (max-width: 600px) {
-} */
+  .project__card_container {
+    flex-direction: column;
+    gap: var(--space-max);
+  }
+  .contact__btns_container {
+    gap: var(--space-min);
+  }
+  .footer {
+    padding-inline: 20px;
+  }
+}
