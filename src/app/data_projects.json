@@ -5,7 +5,8 @@
     "description": "App diseñada para comprar, vender y compartir material académico universitario.",
     "tech": ["React", "Next", "Node", "Express", "MySQL"],
     "link_code": "https://github.com/fernandozarate07/summaries-app-back",
-    "link_app": "#"
+    "link_app": null,
+    "link_video": null
   },
   {
     "id": 2,
@@ -13,6 +14,7 @@
     "description": "Agencia especializada en branding, diseño y desarrollo web.",
     "tech": ["React", "Next"],
     "link_code": "https://github.com/fernandozarate07/protoprogramadores",
-    "link_app": "https://www.protoprogramadores.com/"
+    "link_app": "https://www.protoprogramadores.com/",
+    "link_video": "/protoprogramadores.mp4"
   }
 ]

@@ -1,11 +1,27 @@
 import styles from "./project_card.module.css";
 import Button from "../buttons/button";
+import Image from "next/image";
 
 export default function Card({ project }) {
   return (
     <div className={styles.card}>
-      {/* vide */}
-      <div className={styles.card__video_container}></div>
+      {/* Contenedor de video/imagen */}
+      <div className={styles.card__video_container}>
+        {project.link_video && project.link_video !== null ? (
+          <video autoPlay muted loop playsInline className={styles.card__video_img}>
+            <source src={project.link_video} type="video/mp4" />
+          </video>
+        ) : (
+          <Image
+            src="404.svg"
+            alt={`Placeholder para ${project.title}`}
+            fill
+            className={styles.card__video_img}
+            style={{ objectFit: "cover" }}
+            priority={false}
+          />
+        )}
+      </div>
       {/* body */}
       <div className={styles.card__body_container}>
         <a href={project.link_app} target="_blank" rel="noopener noreferrer">

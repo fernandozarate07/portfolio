@@ -6,10 +6,18 @@
   gap: var(--space-mid);
 }
 .card__video_container {
+  position: relative; /* Necesario para next/image con fill */
   width: 100%;
-  height: 200px;
+  aspect-ratio: 2 / 1; /* Fuerza la proporción 2:1 */
+  max-height: 200px;
   border: 0.5px solid var(--black-op-line);
   border-radius: 8px;
+  overflow: hidden;
+}
+.card__video_img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 .card__body_title {
   color: var(--black);
