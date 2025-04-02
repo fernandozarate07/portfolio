@@ -14,6 +14,13 @@
 .card__body_title {
   color: var(--black);
   font-size: var(--size-mid);
+  cursor: pointer;
+
+  transition: transform 0.2s ease, text-shadow 0.3s ease;
+}
+.card__body_title:hover {
+  transform: translateY(-2px);
+  font-weight: var(--weight-bold);
 }
 .card__body_container {
   display: flex;

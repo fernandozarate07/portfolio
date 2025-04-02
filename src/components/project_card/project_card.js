@@ -8,7 +8,9 @@ export default function Card({ project }) {
       <div className={styles.card__video_container}></div>
       {/* body */}
       <div className={styles.card__body_container}>
-        <h3 className={styles.card__body_title}>{project.title}</h3>
+        <a href={project.link_app} target="_blank" rel="noopener noreferrer">
+          <h3 className={styles.card__body_title}>{project.title}</h3>
+        </a>
         <p className={styles.card__body_description}>{project.description}</p>
         <div className={styles.card__tech_contaienr}>
           {project.tech.map((tech, index) => (
@@ -17,7 +19,7 @@ export default function Card({ project }) {
             </span>
           ))}
         </div>
-        <a href={project.link} target="_blank" rel="noopener noreferrer">
+        <a href={project.link_code} target="_blank" rel="noopener noreferrer">
           <Button content={"Code"} />
         </a>
       </div>

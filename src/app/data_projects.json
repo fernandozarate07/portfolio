@@ -4,13 +4,15 @@
     "title": "Unimarket",
     "description": "App diseñada para comprar, vender y compartir material académico universitario.",
     "tech": ["React", "Next", "Node", "Express", "MySQL"],
-    "link": "https://github.com/fernandozarate07/summaries-app-back"
+    "link_code": "https://github.com/fernandozarate07/summaries-app-back",
+    "link_app": "#"
   },
   {
     "id": 2,
     "title": "Protoprogramadores",
     "description": "Agencia especializada en branding, diseño y desarrollo web.",
     "tech": ["React", "Next"],
-    "link": "https://github.com/fernandozarate07/protoprogramadores"
+    "link_code": "https://github.com/fernandozarate07/protoprogramadores",
+    "link_app": "https://www.protoprogramadores.com/"
   }
 ]
