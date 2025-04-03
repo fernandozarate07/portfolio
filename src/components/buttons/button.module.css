@@ -14,9 +14,4 @@
   font-size: var(--size-xmin);
 
   cursor: pointer;
-  transition: ease 0.3s;
-}
-.button:hover {
-  color: var(--white);
-  background-color: var(--black);
 }

@@ -1,6 +1,7 @@
 import styles from "./project_card.module.css";
 import Button from "../buttons/button";
 import Image from "next/image";
+import { motion } from "motion/react";
 
 export default function Card({ project }) {
   return (
@@ -25,7 +26,12 @@ export default function Card({ project }) {
       {/* body */}
       <div className={styles.card__body_container}>
         <a href={project.link_app} target="_blank" rel="noopener noreferrer">
-          <h3 className={styles.card__body_title}>{project.title}</h3>
+          <motion.h3
+            whileHover={{ y: -2 }}
+            transition={{ type: "spring", stiffness: 300 }}
+            className={styles.card__body_title}>
+            {project.title}
+          </motion.h3>
         </a>
         <p className={styles.card__body_description}>{project.description}</p>
         <div className={styles.card__tech_contaienr}>
