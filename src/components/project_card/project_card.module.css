@@ -50,7 +50,7 @@
   gap: var(--space-mid);
 }
 .card__techo_item {
-  font-size: var(--size-xmin);
+  font-size: var(--size-xmin) !important;
 }
 /* media queris */
 @media (max-width: 640px) {

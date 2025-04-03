@@ -1,0 +1,19 @@
+.hero {
+  width: 100%;
+  margin-top: 96px; /*tamaño unico*/
+
+  display: flex;
+  flex-direction: column;
+}
+.hero__name {
+  color: var(--black);
+  font-weight: var(--weight-bold);
+  margin-bottom: var(--space-min);
+}
+.hero__rol {
+  font-size: var(--size-max);
+}
+.hero__description {
+  margin-top: var(--space-mid);
+  font-size: var(--size-min);
+}

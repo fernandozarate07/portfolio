@@ -1,0 +1,16 @@
+.studies {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-mid);
+}
+.studies__title {
+  color: var(--black);
+  font-size: var(--size-max);
+}
+.studies__box_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: var(--space-mid);
+}

@@ -6,9 +6,6 @@
   padding: var(--space-mid);
   border: 0.5px solid var(--black-op-line);
   border-radius: 8px;
-
-  transition: ease 0.3s;
-  box-shadow: 0 0 0 2px transparent;
 }
 .box__left {
   width: 70%;
@@ -25,10 +22,6 @@
 .box__year,
 .box__description {
   font-size: var(--size-min);
-}
-.box:hover,
-.box:focus {
-  box-shadow: 0 0 0 0.5px var(--black-op-line);
 }
 @media (max-width: 600px) {
   .box__title {

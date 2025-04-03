@@ -1,0 +1,41 @@
+.contact {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-mid);
+}
+.contact__title {
+  color: var(--black);
+  font-size: var(--size-max);
+}
+.contact__container {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-min);
+}
+.contact__p {
+  font-size: var(--size-min);
+}
+.contact__p a {
+  color: var(--black);
+  font-weight: var(--weight-bold);
+  cursor: pointer;
+}
+.contact__btns_container {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--space-mid);
+}
+.contact__resume_container {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-min);
+}
+.contact__resume_p {
+  font-size: var(--size-min);
+}
+@media (max-width: 640px) {
+  .contact__btns_container {
+    gap: var(--space-min);
+  }
+}

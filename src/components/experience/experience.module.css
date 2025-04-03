@@ -1,0 +1,16 @@
+.experience {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-mid);
+}
+.experience__title {
+  color: var(--black);
+  font-size: var(--size-max);
+}
+.experience_box_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: var(--space-mid);
+}

@@ -1,0 +1,19 @@
+.footer {
+  max-width: 800px;
+  width: 100%;
+  height: 60px;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  border-top: 0.5px solid var(--black-op-line);
+}
+.footer span {
+  font-size: var(--size-xmin);
+}
+@media (max-width: 640px) {
+  .footer {
+    padding-inline: 16px;
+  }
+}

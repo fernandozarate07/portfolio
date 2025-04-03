@@ -1,0 +1,21 @@
+.project {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-mid);
+}
+.project__title {
+  color: var(--black);
+  font-size: var(--size-max);
+}
+.project__card_container {
+  width: 100%;
+
+  display: flex;
+  gap: var(--space-mid);
+}
+@media (max-width: 640px) {
+  .project__card_container {
+    flex-direction: column;
+    gap: var(--space-max);
+  }
+}
