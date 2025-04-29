@@ -46,6 +46,10 @@
 .card__techo_item {
   font-size: var(--size-xmin) !important;
 }
+.card__body_codeLinks_container {
+  display: flex;
+  gap: var(--space-min);
+}
 /* media queris */
 @media (max-width: 640px) {
   .card {

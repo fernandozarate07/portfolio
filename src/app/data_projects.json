@@ -1,20 +1,22 @@
 [
   {
     "id": 1,
-    "title": "Unimarket",
-    "description": "App diseñada para comprar, vender y compartir material académico universitario.",
+    "title": "Unexo",
+    "description": "Unexo es una plataforma de código abierto donde estudiantes de San Juan comparten recursos académicos para la universidad.",
     "tech": ["React", "Next", "Node", "Express", "MySQL"],
-    "link_code": "https://github.com/fernandozarate07/summaries-app-back",
     "link_app": null,
+    "link_frontend": "https://github.com/fernandozarate07/unexo_frontend",
+    "link_backend": "https://github.com/fernandozarate07/unexo_backend",
     "link_video": null
   },
   {
     "id": 2,
     "title": "Protoprogramadores",
-    "description": "Agencia especializada en branding, diseño y desarrollo web.",
+    "description": "Sitio web de Protoprogramadores, una agencia digital especializada en branding, diseño creativo y desarrollo web a medida.",
     "tech": ["React", "Next"],
-    "link_code": "https://github.com/fernandozarate07/protoprogramadores",
     "link_app": "https://www.protoprogramadores.com/",
+    "link_frontend": "https://github.com/fernandozarate07/protoprogramadores",
+    "link_backend": null,
     "link_video": "/protoprogramadores.mp4"
   }
 ]

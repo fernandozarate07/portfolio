@@ -14,7 +14,7 @@ export default function Card({ project }) {
           </video>
         ) : (
           <Image
-            src="404.svg"
+            src="unexo.svg"
             alt={`Placeholder para ${project.title}`}
             fill
             className={styles.card__video_img}
@@ -41,9 +41,18 @@ export default function Card({ project }) {
             </span>
           ))}
         </div>
-        <a href={project.link_code} target="_blank" rel="noopener noreferrer">
-          <Button content={"Code"} />
-        </a>
+        <div className={styles.card__body_codeLinks_container}>
+          {project.link_frontend && (
+            <a href={project.link_frontend} target="_blank" rel="noopener noreferrer">
+              <Button content="code frontend" />
+            </a>
+          )}
+          {project.link_backend && (
+            <a href={project.link_backend} target="_blank" rel="noopener noreferrer">
+              <Button content="code backend" />
+            </a>
+          )}
+        </div>
       </div>
     </div>
   );
