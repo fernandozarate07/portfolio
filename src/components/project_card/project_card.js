@@ -14,7 +14,7 @@ export default function Card({ project }) {
           </video>
         ) : (
           <Image
-            src="unexo.svg"
+            src="404.svg"
             alt={`Placeholder para ${project.title}`}
             fill
             className={styles.card__video_img}

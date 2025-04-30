@@ -1,0 +1,28 @@
+.tech_stack {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-mid);
+}
+.tech_stack__title {
+  color: var(--black);
+  font-size: var(--size-max);
+}
+.tech_stack__items_container {
+  min-width: 300px;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: var(--space-min);
+}
+.tech_stack__item {
+  display: flex;
+  align-items: center;
+  gap: 2px;
+
+  font-size: var(--size-min) !important;
+}
+@media (max-width: 640px) {
+  .tech_stack__item {
+    font-size: var(--size-xmin) !important;
+  }
+}
