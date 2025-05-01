@@ -5,10 +5,10 @@ import { motion } from "motion/react";
 
 export default function Button({ content }) {
   const handle_download_pdf = () => {
-    const pdfUrl = "/resume/fernando_zarate_resume.pdf";
+    const pdfUrl = "/resume/fernandoZarateResume.pdf";
     const link = document.createElement("a");
     link.href = pdfUrl;
-    link.download = "fernando_zarate_resume.pdf";
+    link.download = "fernandoZarateResume.pdf";
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);
